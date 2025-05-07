@@ -8,7 +8,7 @@
 
 ## **Install Needed Packages**
 
-`sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland rofi mako hyprpaper hypridle hyprlock python-pywal`
+`sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland rofi mako python-pywal`
 
 ## **Enable Login Manager**
 
@@ -18,11 +18,15 @@
 
 `sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
 
+## **Install Hyprland stuff**
+
+`yay -S hyprpaper hypridle hyprlock waybar hyprshot wlogout`
+
 ## **Switch To zsh**
 
 `chsh -s $(which zsh)`
 
-## **Install oh-my-zsh and p10k**
+## **Install oh-my-zsh and p10k + zsh plugins**
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
@@ -30,40 +34,44 @@
 
 `echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
 
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 ## **Install Nvidia Drivers**
 
 `sudo pacman -S nvidia nvidia-utils nvidia-settings`
-
-## **Setup Font**
-
-Install [Cousine Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ## **GTK Theme**
 
 `yay -S dracula-gtk-theme`
 
+## **Install Apps**
+
+| Type                                           |
+| ---------------------------------------------- |
+| yay -S librewolf-bin                           |
+| yay -S vscodium-bin                            |
+| yay -S brave-bin                               |
+| sudo pacman -S intellij-idea-community-edition |
+| sudo pacman -S keepassxc                       |
+| sudo pacman -S obsidian                        |
+| yay -S portmaster-stub-bin                     |
+| yay -S github-desktop-bin                      |
+| sudo pacman -S obs-studio                      |
+| sudo pacman -S kdenlive                        |
+
+## **Setup Font**
+
+Install [Cousine Nerd Font](https://www.nerdfonts.com/font-downloads)
+
 ## **Rice**
 
-hyprland, hypridle, hyprpaper, hyprlock, kitty, zsh, waybar, mako, rofi
+copy .dotfiles
 
 ## **For Screen Recording**
 
 `yay -S xdg-desktop-portal-hyprland-git`
-
-## **Install Apps**
-
-| Type           |
-| -------------- |
-| Librewolf      |
-| VSCodium       |
-| Brave          |
-| Intellij       |
-| KeePassXC      |
-| Obsidian       |
-| Portmaster     |
-| GitHub Desktop |
-| OBS Studio     |
-| Kdenlive       |
 
 ## **Setup ufw**
 
@@ -81,4 +89,5 @@ hyprland, hypridle, hyprpaper, hyprlock, kitty, zsh, waybar, mako, rofi
 
 ## **TODO**
 
-- improve dots
+- improve dots layout
+- new image

@@ -78,3 +78,7 @@ hyprland, hypridle, hyprpaper, hyprlock, kitty, zsh, waybar, mako, rofi
 `sudo ufw default allow outgoing`
 
 `sudo systemctl enable ufw.service`
+
+## **TODO**
+
+- improve dots

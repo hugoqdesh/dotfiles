@@ -1,6 +1,6 @@
 <div align="center">
 
-# **MY DOTFILES**
+# **PYWAL DOTS**
 
 ![image](image.png)
 
@@ -8,7 +8,7 @@
 
 ## **Install Needed Packages**
 
-`sudo pacman -S nano git zsh kitty nautilus gnome-font-viewer ly hyprland mako hyprpaper hypridle hyprlock python-pywal`
+`sudo pacman -S nano timeshift git zsh kitty nautilus gnome-font-viewer ly hyprland rofi mako hyprpaper hypridle hyprlock python-pywal`
 
 ## **Enable Login Manager**
 

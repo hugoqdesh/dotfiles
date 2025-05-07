@@ -1,0 +1,121 @@
+@import url("/home/hugoqdesh/.cache/wal/colors-waybar.css");
+
+* {
+	padding: 0;
+	margin: 1;
+	min-height: 0;
+	font-size: 11px;
+	font-family: Cousine Nerd Font;
+	border-radius: 0px;
+	border: none;
+	text-shadow: none;
+	transition: none;
+	box-shadow: none;
+}
+
+window#waybar {
+	background: @background;
+}
+
+#window,
+#cpu,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#clock,
+#network,
+#custom-power,
+#memory {
+	background: @color12;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+/* ======================================================== */
+/* workspaces module */
+/* ======================================================== */
+#workspaces {
+	margin: 0px;
+}
+
+#workspaces button {
+	color: @foreground;
+	min-width: 20px;
+}
+
+#workspaces button.active {
+	color: @color12;
+}
+
+#workspaces button.urgent {
+	background: @color8;
+}
+
+/* ======================================================== */
+/* window */
+/* ======================================================== */
+#window {
+	color: @foreground;
+}
+
+/* ======================================================== */
+/* cpu */
+/* ======================================================== */
+#cpu {
+	color: @foreground;
+}
+
+/* ======================================================== */
+/* memory */
+/* ======================================================== */
+#memory {
+	color: @foreground;
+}
+
+/* ======================================================== */
+/* pulseaudio */
+/* ======================================================== */
+#pulseaudio {
+	color: @foreground;
+}
+
+/* ======================================================== */
+/* battery */
+/* ======================================================== */
+#battery {
+	color: @foreground;
+}
+
+#battery.critical {
+	color: @color11;
+}
+
+#battery.warning {
+	color: @color12;
+}
+
+/* ======================================================== */
+/* clock */
+/* ======================================================== */
+#clock {
+	color: @foreground;
+}
+
+/* ======================================================== */
+/* custom/power */
+/* ======================================================== */
+#custom-power {
+	color: @foreground;
+	padding-right: 0px;
+}
+
+/* ======================================================== */
+/* network */
+/* ======================================================== */
+#network {
+	color: @foreground;
+}

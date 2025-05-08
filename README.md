@@ -6,89 +6,124 @@
 
 </div>
 
-## **Install Needed Packages**
+### Install needed packages
 
-`sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland rofi mako python-pywal`
+```bash
+sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland rofi mako python-pywal
+```
 
-## **Enable Login Manager**
+### Enable login manager
 
-`sudo systemctl enable ly.service`
+```bash
+sudo systemctl enable ly.service
+```
 
-## **Install yay**
+### Install yay
 
-`sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
+```bash
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
 
-## **Install Hyprland stuff**
+### Install hyprland packages
 
-`yay -S hyprpaper hypridle hyprlock waybar hyprshot wlogout`
+```bash
+yay -S hyprpaper hypridle hyprlock waybar hyprshot wlogout
+```
 
-## **Switch To zsh**
+### Switch to zsh
 
-`chsh -s $(which zsh)`
+```bash
+chsh -s $(which zsh)
+```
 
-## **Install oh-my-zsh and p10k + zsh plugins**
+### Install oh-my-zsh, p10k and zsh plugins
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+[oh-my-zsh](https://ohmyz.sh/)
 
-`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`
+[powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-`echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+### Install nvidia drivers
 
-## **Install Nvidia Drivers**
+```bash
+sudo pacman -S nvidia nvidia-utils nvidia-settings
+```
 
-`sudo pacman -S nvidia nvidia-utils nvidia-settings`
+### GTK theme
 
-## **GTK Theme**
+```bash
+yay -S dracula-gtk-theme
+```
 
-`yay -S dracula-gtk-theme`
+### Install apps
 
-## **Install Apps**
+| Type                                             |
+| ------------------------------------------------ |
+| `yay -S librewolf-bin`                           |
+| `yay -S vscodium-bin`                            |
+| `yay -S brave-bin`                               |
+| `sudo pacman -S intellij-idea-community-edition` |
+| `sudo pacman -S keepassxc`                       |
+| `sudo pacman -S obsidian`                        |
+| `yay -S portmaster-stub-bin`                     |
+| `yay -S github-desktop-bin`                      |
+| `sudo pacman -S obs-studio`                      |
+| `sudo pacman -S kdenlive`                        |
 
-| Type                                           |
-| ---------------------------------------------- |
-| yay -S librewolf-bin                           |
-| yay -S vscodium-bin                            |
-| yay -S brave-bin                               |
-| sudo pacman -S intellij-idea-community-edition |
-| sudo pacman -S keepassxc                       |
-| sudo pacman -S obsidian                        |
-| yay -S portmaster-stub-bin                     |
-| yay -S github-desktop-bin                      |
-| sudo pacman -S obs-studio                      |
-| sudo pacman -S kdenlive                        |
-
-## **Setup Font**
+### Install needed font
 
 Install [Cousine Nerd Font](https://www.nerdfonts.com/font-downloads)
 
-## **Rice**
+### Start ricing
 
 copy .dotfiles
 
-## **For Screen Recording**
+### Screen sharing package
 
-`yay -S xdg-desktop-portal-hyprland-git`
+```bash
+yay -S xdg-desktop-portal-hyprland-git
+```
 
-## **Setup ufw**
+### Setup ufw
 
-`sudo ufw limit 22/tcp`
+```bash
+sudo ufw limit 22/tcp
+```
 
-`sudo ufw allow 80/tcp`
+```bash
+sudo ufw allow 80/tcp
+```
 
-`sudo ufw limit 443/tcp`
+```bash
+sudo ufw limit 443/tcp
+```
 
-`sudo ufw default deny incoming`
+```bash
+sudo ufw default deny incoming
+```
 
-`sudo ufw default allow outgoing`
+```bash
+sudo ufw default allow outgoing
+```
 
-`sudo systemctl enable ufw.service`
+```bash
+sudo systemctl enable ufw.service
+```
 
-## **TODO**
+### Screenshots
 
-- improve dots layout
+|                         |                         |
+| :---------------------: | :---------------------: |
+| <img src="preview.png"> | <img src="preview.png"> |
+| <img src="preview.png"> | <img src="preview.png"> |
+| <img src="preview.png"> | <img src="preview.png"> |
+
+### To-Do
+
+- new screenshots
 - improve rofi | waybar | wlogout
 - fastfetch
+- improve arch

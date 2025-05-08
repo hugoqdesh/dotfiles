@@ -2,7 +2,7 @@
 
 # **PYWAL DOTS**
 
-![image](image.png)
+![image](preview.png)
 
 </div>
 
@@ -90,6 +90,5 @@ copy .dotfiles
 ## **TODO**
 
 - improve dots layout
-- new preview image
 - improve rofi | waybar | wlogout
 - fastfetch

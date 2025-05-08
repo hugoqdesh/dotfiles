@@ -60,7 +60,7 @@ yay -S dracula-gtk-theme
 
 ### Install apps
 
-| Type                                             |
+|                                                  |
 | ------------------------------------------------ |
 | `yay -S librewolf-bin`                           |
 | `yay -S vscodium-bin`                            |

@@ -126,4 +126,7 @@ sudo systemctl enable ufw.service
 - new screenshots
 - improve waybar
 - fastfetch
-- improve arch
+- replace showcase image with video
+- try out qutebrowser & zen browser
+- specitfy
+- pywalfox

@@ -15,8 +15,7 @@
 		"network",
 		"pulseaudio",
 		"battery",
-		"clock",
-		"custom/power"
+		"clock"
 	],
 	"hyprland/workspaces": {
 		"disable-scroll": true,
@@ -29,7 +28,7 @@
 		}
 	},
 	"clock": {
-		"format": "{:%R %a %d}",
+		"format": "{:%R}",
 		"interval": 1,
 		"tooltip": false
 	},
@@ -61,26 +60,13 @@
 	},
 	"pulseaudio": {
 		"scroll-step": 1,
-		"format": "{icon} {volume}%",
-		"format-muted": "  Muted",
+		"format": "{volume}%",
+		"format-muted": "Muted",
 		"format-source": "{volume}%",
 		"tooltip": false,
 		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
 		"on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
-		"on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
-		"format-icons": {
-			"default": [
-				" ",
-				" ",
-				" "
-			]
-		}
-	},
-	"custom/power": {
-		"format": " ",
-		"on-click": "wlogout",
-		"exec-if": true,
-		"tooltip": false
+		"on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
 	},
 	"network": {
 		"format": "{ifname}",

@@ -27,7 +27,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ### Install hyprland packages
 
 ```bash
-yay -S hyprpaper hypridle hyprlock waybar hyprshot wlogout
+yay -S hyprpaper hypridle hyprlock waybar hyprshot
 ```
 
 ### Switch to zsh
@@ -124,6 +124,6 @@ sudo systemctl enable ufw.service
 ### To-Do
 
 - new screenshots
-- improve rofi | waybar | wlogout
+- improve rofi | waybar
 - fastfetch
 - improve arch

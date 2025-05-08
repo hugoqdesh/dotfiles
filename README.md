@@ -9,7 +9,7 @@
 ### Install needed packages
 
 ```bash
-sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland rofi mako python-pywal
+sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland tofi mako python-pywal
 ```
 
 ### Enable login manager
@@ -124,6 +124,6 @@ sudo systemctl enable ufw.service
 ### To-Do
 
 - new screenshots
-- improve rofi | waybar
+- improve waybar
 - fastfetch
 - improve arch

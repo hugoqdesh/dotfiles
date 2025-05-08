@@ -3,13 +3,13 @@ width = 100%
 height = 21
 horizontal = true
 font-size = 11
-prompt-text = "=^_^= "
+prompt-text = "^_^ "
 font = Cousine Nerd Font
 outline-width = 0
 border-width = 0
 background-color = #0c0d0c
 selection-color = #CCA16D
-min-input-width = 100
+min-input-width = 120
 result-spacing = 15
 padding-top = 0
 padding-bottom = 0

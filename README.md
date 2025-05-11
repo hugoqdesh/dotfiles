@@ -2,7 +2,7 @@
 
 # **PYWAL DOTS**
 
-![image](preview.png)
+<!-- ![image](/assets/showcase.png) -->
 
 </div>
 
@@ -62,7 +62,7 @@ yay -S dracula-gtk-theme
 
 |                                                  |
 | ------------------------------------------------ |
-| `yay -S librewolf-bin`                           |
+| `yay -S qutebrowser-git`                         |
 | `yay -S vscodium-bin`                            |
 | `yay -S brave-bin`                               |
 | `sudo pacman -S intellij-idea-community-edition` |
@@ -115,18 +115,10 @@ sudo systemctl enable ufw.service
 
 ### Screenshots
 
-|                         |                         |
-| :---------------------: | :---------------------: |
-| <img src="preview.png"> | <img src="preview.png"> |
-| <img src="preview.png"> | <img src="preview.png"> |
-| <img src="preview.png"> | <img src="preview.png"> |
+|                                |                                |
+| :----------------------------: | :----------------------------: |
+| <img src="assets/screen1.png"> | <img src="assets/screen2.png"> |
+| <img src="assets/screen3.png"> | <img src="assets/screen4.png"> |
+| <img src="assets/screen5.png"> | <img src="assets/screen6.png"> |
 
 ### To-Do
-
-- new screenshots
-- improve waybar
-- fastfetch
-- replace showcase image with video
-- try out qutebrowser & zen browser
-- specitfy
-- pywalfox

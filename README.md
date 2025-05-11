@@ -62,7 +62,7 @@ yay -S dracula-gtk-theme
 
 |                                                  |
 | ------------------------------------------------ |
-| `yay -S qutebrowser-git`                         |
+| `yay -S librewolf-bin`                           |
 | `yay -S vscodium-bin`                            |
 | `yay -S brave-bin`                               |
 | `sudo pacman -S intellij-idea-community-edition` |

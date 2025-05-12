@@ -2,7 +2,7 @@
 
 # **PYWAL DOTS**
 
-This is my daily driver configuration that I use for coding, gaming, browsing the web, etc. I am constantly trying to add new improvements.
+This is my daily driver configuration that I use for everything like coding, browsing the web, etc. I am constantly trying to add new improvements.
 
 I use Arch BTW.. :)
 

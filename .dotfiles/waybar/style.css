@@ -27,6 +27,7 @@ window#waybar {
 #clock,
 #network,
 #custom-power,
+#temperature,
 #memory {
 	padding-right: 4px;
 	padding-left: 4px;
@@ -78,5 +79,9 @@ window#waybar {
 }
 
 #network {
+	color: @color12;
+}
+
+#temperature {
 	color: @color12;
 }

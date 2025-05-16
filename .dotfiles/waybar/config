@@ -13,6 +13,7 @@
 		"cpu",
 		"memory",
 		"network",
+		"temperature",
 		"pulseaudio",
 		"battery",
 		"clock"
@@ -34,6 +35,9 @@
 			"9": "[9]",
 			"10": "[10]"
 		}
+	},
+	"hyprland/window": {
+		"format": "{class}"
 	},
 	"clock": {
 		"format": "{:%R}",
@@ -83,6 +87,11 @@
 		"format-disconnected": "󰖪 Disconnected",
 		"tooltip": false,
 		"max-length": 50,
+		"interval": 5
+	},
+	"temperature": {
+		"format": "{temperatureC}°C",
+		"tooltip": false,
 		"interval": 5
 	}
 }

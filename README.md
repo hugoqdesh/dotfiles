@@ -11,7 +11,7 @@ I use Arch BTW.. :)
 ### Install needed packages
 
 ```bash
-sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland tofi mako python-pywal
+sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland mako python-pywal
 ```
 
 ### Enable login manager
@@ -29,7 +29,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ### Install hyprland packages
 
 ```bash
-yay -S hyprpaper hypridle hyprlock waybar hyprshot
+yay -S hyprpaper hypridle hyprlock waybar hyprshot tofi
 ```
 
 ### Switch to zsh

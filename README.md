@@ -124,3 +124,5 @@ sudo systemctl enable ufw.service
 | <img src="assets/screen5.png"> | <img src="assets/screen6.png"> |
 
 ### To-Do
+- try switching to dwm
+- neovim

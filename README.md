@@ -1,35 +1,73 @@
 <div align="center">
 
-# **PYWAL DOTS**
+# **DWM PYWAL DOTS**
 
 This is my daily driver configuration that I use for everything like coding, browsing the web, etc. I am constantly trying to add new improvements.
 
 I use Arch BTW.. :)
 
+<img src="assets/screenshot.png">
+
 </div>
+
+### Install basic packages
+
+```bash
+sudo pacman -S base-devel git nano kitty picom zsh nautilus ufw flameshot feh fastfetch
+```
+
+### Clone dwm
+
+```bash
+git clone https://git.suckless.org/dwm
+```
+
+```bash
+git clone https://git.suckless.org/dmenu
+```
+
+```bash
+git clone https://git.suckless.org/st
+```
+
+```bash
+git clone https://git.suckless.org/slstatus
+```
 
 ### Install needed packages
 
 ```bash
-sudo pacman -S nano timeshift git zsh kitty nautilus ufw gnome-font-viewer ly hyprland mako python-pywal
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
 ```
 
-### Enable login manager
+### .xinitrc
 
 ```bash
-sudo systemctl enable ly.service
+nano .xinitrc #add "exec dwm" there
+```
+
+### clean install
+
+```bash
+run sudo make clean install in all dwm folders
+```
+
+### config.h
+
+```bash
+replace /bin/sh to /usr/local/bin/st
+```
+
+### .bash_profile
+
+```bash
+nano .bash_profile # add "startx" to the bottom
 ```
 
 ### Install yay
 
 ```bash
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-```
-
-### Install hyprland packages
-
-```bash
-yay -S hyprpaper hypridle hyprlock waybar hyprshot tofi
 ```
 
 ### Switch to zsh
@@ -54,26 +92,25 @@ chsh -s $(which zsh)
 sudo pacman -S nvidia nvidia-utils nvidia-settings
 ```
 
-### GTK theme
+### Pywal
 
 ```bash
-yay -S dracula-gtk-theme
+yay -S python-pywal16
 ```
 
 ### Install apps
 
-|                                                  |
-| ------------------------------------------------ |
-| `yay -S librewolf-bin`                           |
-| `yay -S vscodium-bin`                            |
-| `yay -S brave-bin`                               |
-| `sudo pacman -S intellij-idea-community-edition` |
-| `sudo pacman -S keepassxc`                       |
-| `sudo pacman -S obsidian`                        |
-| `yay -S portmaster-stub-bin`                     |
-| `yay -S github-desktop-bin`                      |
-| `sudo pacman -S obs-studio`                      |
-| `sudo pacman -S kdenlive`                        |
+|                             |
+| --------------------------- |
+| `sudo pacman -S keepassxc`  |
+| `sudo pacman -S obsidian`   |
+| `sudo pacman -S obs-studio` |
+| `sudo pacman -S kdenlive`   |
+| `yay -S librewolf-bin`      |
+| `yay -S vscodium-bin`       |
+| `yay -S jetbrains-toolbox`  |
+| `yay -S vesktop-bin`        |
+| `sudo pacman -S steam`      |
 
 ### Install needed font
 
@@ -82,12 +119,6 @@ Install [Cousine Nerd Font](https://www.nerdfonts.com/font-downloads)
 ### Start ricing
 
 copy .dotfiles
-
-### Screen sharing package
-
-```bash
-yay -S xdg-desktop-portal-hyprland-git
-```
 
 ### Setup ufw
 
@@ -115,14 +146,31 @@ sudo ufw default allow outgoing
 sudo systemctl enable ufw.service
 ```
 
+### Patches
+
+[alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
+
+[attachbottom](https://dwm.suckless.org/patches/attachbottom/)
+
+[restartsig](https://dwm.suckless.org/patches/restartsig/)
+
+[tiledmove](https://dwm.suckless.org/patches/tiledmove/)
+
+[vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
+
+[pertag](https://dwm.suckless.org/patches/pertag/)
+
 ### Screenshots
 
-|                                |                                |
-| :----------------------------: | :----------------------------: |
-| <img src="assets/screen1.png"> | <img src="assets/screen2.png"> |
-| <img src="assets/screen3.png"> | <img src="assets/screen4.png"> |
-| <img src="assets/screen5.png"> | <img src="assets/screen6.png"> |
+### Extensions
+
+- librewolf (Chameleon, Decentraleyes, uBlock Origin)
+
+- vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Wal Theme)
+
+- intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)
 
 ### To-Do
-- try switching to dwm
+
+- reformat everything
 - neovim

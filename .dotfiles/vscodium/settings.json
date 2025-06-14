@@ -1,0 +1,45 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.endOfLine": "auto",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.singleQuote": false,
+	"editor.wordWrap": "wordWrapColumn",
+	"prettier.useTabs": true,
+
+	"editor.cursorBlinking": "solid",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.smoothScrolling": true,
+
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.activityBar.location": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.statusBar.visible": false,
+	"breadcrumbs.enabled": false,
+	"window.menuBarVisibility": "toggle",
+	"window.commandCenter": false,
+
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+
+	"editor.fontFamily": "Cousine Nerd Font",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 28,
+	"window.zoomLevel": 0.2,
+	"editor.tabSize": 2,
+	"editor.renderLineHighlight": "none",
+	"editor.stickyScroll.enabled": false,
+	"editor.renderWhitespace": "none",
+	// "editor.showFoldingControls": "never",
+	// "editor.guides.indentation": false,
+
+	"explorer.confirmDelete": false,
+	"explorer.confirmPasteNative": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.decorations.badges": true,
+
+	"workbench.colorTheme": "Wal",
+	"symbols.hidesExplorerArrows": false,
+	"workbench.iconTheme": "symbols",
+
+	"chat.commandCenter.enabled": false
+}

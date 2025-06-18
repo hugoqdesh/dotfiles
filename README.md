@@ -13,7 +13,7 @@ I use Arch BTW.. :)
 ### Install basic packages
 
 ```bash
-sudo pacman -S base-devel git nano kitty picom zsh nautilus ufw flameshot feh fastfetch
+sudo pacman -S base-devel git neovim kitty picom zsh nautilus ufw flameshot feh fastfetch
 ```
 
 ### Clone dwm
@@ -106,7 +106,7 @@ yay -S python-pywal16
 | `sudo pacman -S obsidian`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
-| `yay -S librewolf-bin`      |
+| `yay -S brave-bin`      |
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
@@ -164,8 +164,6 @@ sudo systemctl enable ufw.service
 
 ### Extensions
 
-- librewolf (Chameleon, Decentraleyes, uBlock Origin)
-
 - vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Wal Theme)
 
 - intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)
@@ -173,4 +171,3 @@ sudo systemctl enable ufw.service
 ### To-Do
 
 - reformat everything
-- neovim

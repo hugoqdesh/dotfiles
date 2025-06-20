@@ -34,6 +34,10 @@ git clone https://git.suckless.org/st
 git clone https://git.suckless.org/slstatus
 ```
 
+```bash
+git clone https://git.suckless.org/slstatus
+```
+
 ### Install needed packages
 
 ```bash

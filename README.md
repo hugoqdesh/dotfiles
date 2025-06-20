@@ -13,7 +13,7 @@ I use Arch BTW.. :)
 ### Install basic packages
 
 ```bash
-sudo pacman -S base-devel git neovim kitty picom zsh nautilus ufw flameshot feh fastfetch
+sudo pacman -S base-devel git neovim kitty picom zsh nautilus ufw flameshot feh fastfetch tmux
 ```
 
 ### Clone dwm
@@ -106,7 +106,7 @@ yay -S python-pywal16
 | `sudo pacman -S obsidian`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
-| `yay -S brave-bin`      |
+| `yay -S brave-bin`          |
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |

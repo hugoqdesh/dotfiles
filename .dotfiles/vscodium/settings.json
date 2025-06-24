@@ -5,13 +5,16 @@
 	"prettier.singleQuote": false,
 	"editor.wordWrap": "wordWrapColumn",
 	"prettier.useTabs": true,
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
 
 	"editor.cursorBlinking": "solid",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.smoothScrolling": true,
 
 	"workbench.tree.renderIndentGuides": "none",
-	"workbench.activityBar.location": "hidden",
+	"workbench.activityBar.location": "default",
 	"workbench.layoutControl.enabled": false,
 	"workbench.statusBar.visible": false,
 	"breadcrumbs.enabled": false,
@@ -36,10 +39,9 @@
 	"explorer.confirmPasteNative": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.decorations.badges": true,
-
-	"workbench.colorTheme": "Wal",
 	"symbols.hidesExplorerArrows": false,
 	"workbench.iconTheme": "symbols",
 
 	"chat.commandCenter.enabled": false
 }
+

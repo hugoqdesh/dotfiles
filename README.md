@@ -110,7 +110,7 @@ yay -S python-pywal16
 | `sudo pacman -S obsidian`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
-| `yay -S brave-bin`          |
+| `yay -S librewolf-bin`      |
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
@@ -168,7 +168,9 @@ sudo systemctl enable ufw.service
 
 ### Extensions
 
-- vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Wal Theme)
+- librewolf (Chameleon, Decentraleyes, uBlock Origin)
+
+- vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Prisma, Wal Theme)
 
 - intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)
 

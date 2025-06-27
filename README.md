@@ -108,6 +108,7 @@ yay -S python-pywal16
 | --------------------------- |
 | `sudo pacman -S keepassxc`  |
 | `sudo pacman -S obsidian`   |
+| `sudo pacman -S audacity`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
 | `yay -S librewolf-bin`      |

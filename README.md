@@ -104,14 +104,12 @@ yay -S python-pywal16
 | --------------------------- |
 | `sudo pacman -S keepassxc`  |
 | `sudo pacman -S obsidian`   |
-| `sudo pacman -S audacity`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
 | `yay -S librewolf-bin`      |
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
-| `sudo pacman -S steam`      |
 
 ### Install needed font
 

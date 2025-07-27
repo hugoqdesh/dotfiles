@@ -27,10 +27,6 @@ git clone https://git.suckless.org/dmenu
 ```
 
 ```bash
-git clone https://git.suckless.org/st
-```
-
-```bash
 git clone https://git.suckless.org/slstatus
 ```
 

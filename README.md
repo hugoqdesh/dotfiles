@@ -35,7 +35,7 @@ git clone https://git.suckless.org/slstatus
 ```
 
 ```bash
-git clone https://git.suckless.org/slstatus
+git clone https://git.suckless.org/slock
 ```
 
 ### Install needed packages

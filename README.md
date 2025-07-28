@@ -148,23 +148,22 @@ sudo systemctl enable ufw.service
 
 ### Patches
 
-[alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
-
 [attachbottom](https://dwm.suckless.org/patches/attachbottom/)
 
 [restartsig](https://dwm.suckless.org/patches/restartsig/)
 
 [tiledmove](https://dwm.suckless.org/patches/tiledmove/)
 
-[vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
+[backlight](https://dwm.suckless.org/patches/backlight/)
 
-[pertag](https://dwm.suckless.org/patches/pertag/)
+[dyn-battery](https://tools.suckless.org/slstatus/patches/dyn-battery/)
 
 ### Extensions
 
-- librewolf (Chameleon, Decentraleyes, uBlock Origin)
+- librewolf (Chameleon, Decentraleyes, uBlock Origin, Vimium C)
+
 - brave (uBlock Origin, Vimium C)
 
-- vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Prisma, Wal Theme)
+- vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Prisma, Wal Theme, Postman)
 
 - intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)

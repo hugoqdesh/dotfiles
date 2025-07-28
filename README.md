@@ -159,8 +159,6 @@ sudo systemctl enable ufw.service
 
 [pertag](https://dwm.suckless.org/patches/pertag/)
 
-### Screenshots
-
 ### Extensions
 
 - librewolf (Chameleon, Decentraleyes, uBlock Origin)
@@ -168,7 +166,3 @@ sudo systemctl enable ufw.service
 - vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Prisma, Wal Theme)
 
 - intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)
-
-### To-Do
-
-- reformat everything

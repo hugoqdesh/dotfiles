@@ -69,6 +69,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, " %s / ", "pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]+%' | head -n1" },
-	{ datetime, "%s",           "%T" },
+	{ cpu_perc, " CPU: %s%% |", NULL },
+	{ ram_perc, " RAM: %s%% |", NULL },
+	{ run_command, " VOL: %s |", "pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]+%' | head -n1" },
+	/* { wifi_essid, " %s @ ", "wlan0" }, */
+	/* { wifi_perc, " %s%% ", "wlan0" }, */
+	/* { battery_perc, " %s%% |", "BAT1" }, */
+	{ datetime, " %s",           "%F %H:%M" },
 };

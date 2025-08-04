@@ -111,6 +111,7 @@ yay -S python-pywal16
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
+| `yay -S dunst`              |
 
 ### Install needed font
 

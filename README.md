@@ -162,10 +162,10 @@ sudo systemctl enable ufw.service
 
 ### Extensions
 
-- librewolf (Chameleon, Decentraleyes, uBlock Origin, Vimium C)
+- librewolf (Chameleon, Decentraleyes, uBlock Origin, Vimium C, Wappalyzer)
 
 - brave (uBlock Origin, Vimium C)
 
 - vscodium (Auto Rename Tag, Code Spell Checker, Error Lens, ES7+ React/Redux, Path Intellisense, Prettier, Pretty TypeScript Errors, Symbols, Tailwind CSS IntelliSense, Prisma, Wal Theme, Postman)
 
-- intellij (Rainbow Brackets, Inspection Lens, Garry Themes, Atom Material Icons)
+- intellij (Rainbow Brackets, Inspection Lens, Gerry Themes, Atom Material Icons, Key Promoter X, IdeaVim)

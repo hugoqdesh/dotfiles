@@ -1,67 +1,19 @@
 <div align="center">
 
-# **DWM PYWAL DOTS**
+# **DOTS**
 
-This is my daily driver configuration that I use for everything like coding, browsing the web, etc. I am constantly trying to add new improvements.
+This is my daily driver configuration that I use for everything like coding, browsing the web, etc.
 
 I use Arch BTW.. :)
 
-<img src="assets/screenshot.png">
+<img src="assets/preview.png">
 
 </div>
 
-### Install basic packages
+### Install packages
 
 ```bash
-sudo pacman -S base-devel git neovim kitty picom zsh nautilus ufw flameshot feh tmux bottom bluetui
-```
-
-### Clone dwm
-
-```bash
-git clone https://git.suckless.org/dwm
-```
-
-```bash
-git clone https://git.suckless.org/dmenu
-```
-
-```bash
-git clone https://git.suckless.org/slstatus
-```
-
-```bash
-git clone https://git.suckless.org/slock
-```
-
-### Install needed packages
-
-```bash
-sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
-```
-
-### .xinitrc
-
-```bash
-nano .xinitrc #add "exec dwm" there
-```
-
-### clean install
-
-```bash
-run sudo make clean install in all dwm folders
-```
-
-### config.h
-
-```bash
-replace /bin/sh to /usr/local/bin/st
-```
-
-### .bash_profile
-
-```bash
-nano .bash_profile # add "startx" to the bottom
+sudo pacman -S base-devel git neovim hyprland hyprpaper hyprpicker hypridle hyprlock hyprsunset kitty wlclipboard picom zsh nautilus ufw bottom bluetui mako waybar hyprshot ttf-cousine-nerd ly zathura zathura-pdf-poppler xdg-desktop-portal-hyprland
 ```
 
 ### Install yay
@@ -106,13 +58,12 @@ yay -S python-pywal16
 | `sudo pacman -S obsidian`   |
 | `sudo pacman -S obs-studio` |
 | `sudo pacman -S kdenlive`   |
-| `sudo pacman -S evince`     |
 | `yay -S librewolf-bin`      |
 | `yay -S brave-bin`          |
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
-| `yay -S dunst`              |
+| `yay -S tofi`               |
 
 ### Install needed font
 
@@ -147,18 +98,6 @@ sudo ufw default allow outgoing
 ```bash
 sudo systemctl enable ufw.service
 ```
-
-### Patches
-
-[attachbottom](https://dwm.suckless.org/patches/attachbottom/)
-
-[restartsig](https://dwm.suckless.org/patches/restartsig/)
-
-[tiledmove](https://dwm.suckless.org/patches/tiledmove/)
-
-[backlight](https://dwm.suckless.org/patches/backlight/)
-
-[dyn-battery](https://tools.suckless.org/slstatus/patches/dyn-battery/)
 
 ### Extensions
 

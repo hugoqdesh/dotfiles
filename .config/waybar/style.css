@@ -1,0 +1,88 @@
+@import url("/home/hugoqdesh/.cache/wal/colors-waybar.css");
+
+* {
+	font-family: "Cousine Nerd Font";
+	font-size: 13px;
+	min-height: 0px;
+}
+
+#waybar {
+	background: transparent;
+	box-shadow: none;
+	border: none;
+}
+
+#workspaces,
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#pulseaudio,
+#custom-power {
+	background: @color0;
+	color: @color12;
+	padding: 4px 8px;
+	font-size: 13px;
+
+	margin-right: 6px;
+	margin-top: 8px;
+	box-shadow: none;
+}
+
+/* #battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#power-profiles-daemon {
+    padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.balanced {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: #2ecc71;
+    color: #000000;
+} */
+
+#temperature.critical {
+	background-color: #eb4d4b;
+}
+
+#workspaces {
+	margin-left: 6px;
+	background: transparent;
+}
+
+#workspaces button {
+	color: @color0;
+	padding: 0px 8px;
+}
+
+#workspaces button:hover {
+	background: none;
+	border: none;
+	border-color: transparent;
+	transition: none;
+}
+
+#custom-power {
+	background: transparent;
+	color: @color0;
+	padding: 0px 0px;
+}

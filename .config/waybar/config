@@ -1,0 +1,100 @@
+{
+    "layer": "top",
+    "position": "top",
+	"height": 30,
+	"margin": 0,
+	
+	"modules-left": [
+		"hyprland/workspaces",
+		"cpu",
+		"memory",
+		"temperature"
+	],
+	"modules-right": [
+		"pulseaudio",
+		//"bluetooth",
+		//"backlight",
+		//"battery",
+		"clock",
+		"custom/power"
+	],
+
+	"pulseaudio": {
+        "format": "VOL: {volume}%",
+		"format-bluetooth": "{volume}% {icon}",
+        	"format-bluetooth-muted": " {icon}",
+        	"format-source-muted": "",
+        	"format-icons": {
+            		"headphone": "",
+            		"hands-free": "",
+            		"headset": "",
+            		"phone": "",
+            		"portable": "",
+            		"car": "",
+            		"default": ["", "", ""]
+		},
+        "on-click": ""
+    },
+
+    	"hyprland/workspaces": {
+		"disable-scroll": true,
+		"format": "{icon}{name}",
+		"format-icons": {
+			"default": "",
+			"urgent": "!",
+			"active": "*"
+		},
+	},
+
+	"cpu": {
+        "format": "CPU: {usage}%",
+    	"tooltip": false
+	},
+    
+	"memory": {
+    	"format": "MEM: {}%"
+	},
+
+	"temperature": {
+     	"thermal-zone": 2,
+        "hwmon-path": "/sys/devices/virtual/thermal/thermal_zone2/temp",
+		"critical-threshold": 80,
+    	"format": "TEMP: {temperatureC}°C"
+    },
+
+	// "bluetooth": {
+	// 	"format": " {status}",
+	// 	"format-disabled": "", // an empty format will hide the module
+	//         "format-connected": " {num_connections} connected",
+	//         "tooltip-format": "{controller_alias}\t{controller_address}",
+	//         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	//         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	//         "on-click": ""
+    // },
+
+	// "backlight": {
+    // 	// "device": "acpi_video1",
+    // 	"format": "{percent}% {icon}",
+    // 	"format-icons": ["🌑", "🌘", "🌗", "🌖", "🌕"]
+    // },
+
+	// "battery": {
+    //     "states": {
+    //     	"warning": 30,
+    //     	"critical": 15
+    //     },
+    // 	"format": "{capacity}% {icon}",
+    // 	"format-full": "{capacity}% {icon}",
+    //     "format-charging": "{capacity}% ",
+    // 	"format-plugged": "{capacity}% ",
+    // 	"format-alt": "{time} {icon}",
+    // 	"format-icons": ["", "", "", "", ""]
+	// },
+
+	"custom/power": {
+        "format" : "⏻ ",
+		"tooltip": false,
+		"on-click": "shutdown 0"
+	}
+} 
+

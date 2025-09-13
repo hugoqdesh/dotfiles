@@ -65,10 +65,6 @@ yay -S python-pywal16
 | `yay -S vesktop-bin`        |
 | `yay -S tofi`               |
 
-### Install needed font
-
-Install [Cousine Nerd Font](https://www.nerdfonts.com/font-downloads)
-
 ### Start ricing
 
 copy .dotfiles

@@ -13,7 +13,7 @@ I use Arch BTW.. :)
 ### Install packages
 
 ```bash
-sudo pacman -S base-devel git neovim hyprland hyprpaper hyprpicker hypridle hyprlock hyprsunset kitty wlclipboard picom zsh nautilus ufw bottom bluetui mako waybar hyprshot ttf-cousine-nerd ly zathura zathura-pdf-poppler xdg-desktop-portal-hyprland
+sudo pacman -S base-devel git neovim hyprland hyprpaper hyprpicker hypridle hyprlock hyprsunset kitty wl-clipboard zsh nautilus ufw bottom bluetui mako waybar hyprshot ttf-cousine-nerd ly zathura zathura-pdf-poppler xdg-desktop-portal-hyprland
 ```
 
 ### Install yay

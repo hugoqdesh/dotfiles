@@ -13,13 +13,19 @@ I use Arch BTW.. :)
 ### Install packages
 
 ```bash
-sudo pacman -S base-devel git neovim hyprland hyprpaper hyprpicker hypridle hyprlock hyprsunset kitty wl-clipboard zsh nautilus ufw bottom bluetui mako waybar hyprshot ttf-cousine-nerd ly zathura zathura-pdf-poppler xdg-desktop-portal-hyprland
+sudo pacman -S base-devel git neovim hyprland hyprpaper hyprpicker hypridle hyprlock hyprsunset kitty wl-clipboard zsh nautilus ufw bottom bluetui mako waybar hyprshot ttf-cousine-nerd ly zathura zathura-pdf-poppler networkmanager xdg-desktop-portal-hyprland
 ```
 
 ### Install yay
 
 ```bash
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
+
+### Enable ly
+
+```bash
+sudo systemctl enable ly.service
 ```
 
 ### Switch to zsh
@@ -63,6 +69,7 @@ yay -S python-pywal16
 | `yay -S vscodium-bin`       |
 | `yay -S jetbrains-toolbox`  |
 | `yay -S vesktop-bin`        |
+| `yay -S localsend-bin`      |
 | `yay -S tofi`               |
 
 ### Start ricing
